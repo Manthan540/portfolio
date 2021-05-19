@@ -1,0 +1,70 @@
+    h1{
+            color:cyan;
+            font-family: cursive;
+        }
+        
+    .header{
+        text-align: center; 
+    }
+    .menu a{
+        margin-left:25px ;
+        padding: 10px;
+    }
+    .menu p{
+        font-family: cursive;
+        font-size: 20px;
+    }
+
+    a:link{
+        color: blue;
+    }
+    a:visited{
+        color: brown;
+    }
+    a:active{
+        color: rebeccapurple;
+    }
+    a:hover{
+        color: red;
+    }
+
+    .menu{
+        color: blueviolet;
+        
+    }
+    body{
+        background-image: repeating-linear-gradient( orange,green 10%,blue 40%);
+    }
+
+     .grid{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-evenly;
+     }
+
+    .footer{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+.item{
+    position: relative;
+}   
+.item p{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+img{
+    opacity: 0.5;
+}
+img:hover{
+    width: 370px;
+    height: 370px;
+    opacity: 1;
+}
